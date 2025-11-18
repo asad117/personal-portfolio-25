@@ -78,7 +78,7 @@ export function Hero() {
               </Button>
             </motion.div>
             
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
@@ -93,7 +93,7 @@ export function Hero() {
               <Button variant="ghost" size="sm" className="h-10 w-10 p-0">
                 <Mail className="h-5 w-5" />
               </Button>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
 
           {/* Profile Image */}

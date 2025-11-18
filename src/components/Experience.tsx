@@ -10,7 +10,7 @@ export function Experience() {
     {
       title: "Full-Stack Developer",
       company: "Freelance & Contract Work",
-      location: "Remote",
+      location: "Remote (Canada)",
       duration: "2021 - Present",
       type: "Freelance",
       description: "Delivering custom web applications for healthcare, travel, and marketing industries. Leading development of scalable platforms and optimizing system architecture for performance.",
@@ -39,38 +39,38 @@ export function Experience() {
       ],
       technologies: ["React.js", "PHP", "Laravel", "TypeScript", "MongoDB", "Redux"]
     },
-    {
-      title: "Graduate Engineer Trainee",
-      company: "Sugar Plant Manufacturing",
-      location: "India",
-      duration: "2020 - 2021",
-      type: "Full-time",
-      description: "Gained technical experience in mechanical systems including pumps, boilers, and compressors. Built strong problem-solving foundation before transitioning into software development.",
-      achievements: [
-        "Optimized mechanical system operations improving efficiency by 15%",
-        "Developed maintenance schedules reducing downtime by 20%",
-        "Learned system integration and process optimization",
-        "Built strong analytical and troubleshooting skills",
-        "Transitioned technical knowledge to software architecture"
-      ],
-      technologies: ["Process Engineering", "System Analysis", "Technical Documentation"]
-    },
-    {
-      title: "Self-Taught Developer",
-      company: "Personal Learning Journey",
-      location: "India",
-      duration: "2020 - 2021",
-      type: "Learning",
-      description: "Intensive self-learning period focusing on modern web development technologies. Built foundation projects and contributed to open-source while transitioning from mechanical engineering.",
-      achievements: [
-        "Mastered React, Node.js, and full-stack development",
-        "Built 10+ personal projects to practice new skills",
-        "Completed online courses and certifications",
-        "Started freelancing with small client projects",
-        "Established presence in developer communities"
-      ],
-      technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Git"]
-    }
+    // {
+    //   title: "Graduate Engineer Trainee",
+    //   company: "Sugar Plant Manufacturing",
+    //   location: "India",
+    //   duration: "2020 - 2021",
+    //   type: "Full-time",
+    //   description: "Gained technical experience in mechanical systems including pumps, boilers, and compressors. Built strong problem-solving foundation before transitioning into software development.",
+    //   achievements: [
+    //     "Optimized mechanical system operations improving efficiency by 15%",
+    //     "Developed maintenance schedules reducing downtime by 20%",
+    //     "Learned system integration and process optimization",
+    //     "Built strong analytical and troubleshooting skills",
+    //     "Transitioned technical knowledge to software architecture"
+    //   ],
+    //   technologies: ["Process Engineering", "System Analysis", "Technical Documentation"]
+    // },
+    // {
+    //   title: "Self-Taught Developer",
+    //   company: "Personal Learning Journey",
+    //   location: "India",
+    //   duration: "2020 - 2021",
+    //   type: "Learning",
+    //   description: "Intensive self-learning period focusing on modern web development technologies. Built foundation projects and contributed to open-source while transitioning from mechanical engineering.",
+    //   achievements: [
+    //     "Mastered React, Node.js, and full-stack development",
+    //     "Built 10+ personal projects to practice new skills",
+    //     "Completed online courses and certifications",
+    //     "Started freelancing with small client projects",
+    //     "Established presence in developer communities"
+    //   ],
+    //   technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Git"]
+    // }
   ];
 
   return (

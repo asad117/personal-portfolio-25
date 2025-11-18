@@ -7,12 +7,13 @@ import { ExternalLink, Github } from 'lucide-react';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
+
 export function Projects() {
   const projects = [
     {
       title: "Medicare - Healthcare Management System",
       description: "A centralized platform for managing healthcare facilities, patient records, appointments, and telemedicine consultations. Features comprehensive scheduling system, doctor/patient dashboards, and admin management tools.",
-      image: "https://images.unsplash.com/photo-1692699203597-b5a4464f3f9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMHByb2plY3QlMjBtb2NrdXB8ZW58MXx8fHwxNzU1ODM0MTY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/assets/images/projects/mediconnect.png",
       technologies: ["React", "Vite", "Django", "Node.js", "JWT Auth", "PostgreSQL"],
       liveUrl: "#",
       githubUrl: "#"
@@ -20,10 +21,11 @@ export function Projects() {
     {
       title: "My Green Butler - Sustainability Platform",
       description: "A sustainability-focused platform providing eco-friendly hospitality solutions. Features carbon footprint tracking, energy-saving reports, and guest engagement tools for hotels and resorts.",
-      image: "https://images.unsplash.com/photo-1718220216044-006f43e3a9b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzU1NzM3ODkwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      technologies: ["React.js", "Next.js", "Node.js", "MongoDB", "REST APIs"],
+      image: "/assets/images/projects/mgb.png",
+      technologies: ["React.js", "Next.js", "Laravel", "MySQL", "REST APIs"],
       liveUrl: "#",
       githubUrl: "#"
+      
     },
     {
       title: "Proposal - Sales & Marketing System",
